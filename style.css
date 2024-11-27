@@ -3,6 +3,34 @@
 	src: url('fonts/Anurati.woff');
 }
 
+h1 {
+	font-family: Anurati;
+	color: white;
+	margin-left: 20px;}
+  h2 {
+	font-family: Anurati;
+	color: white;
+	margin-left: 20px;}
+  h3 {
+	font-family: Anurati;
+	color: white;
+	margin-left: 20px;}
+  h4 {
+	font-family: Anurati;
+	color: white;
+	margin-left: 20px;}
+  h5 {
+	font-family: Anurati;
+	color: white;
+	margin-left: 20px;}
+  h6 {
+	font-family: Anurati;
+	color: white;
+	margin-left: 20px;}
+  p {
+	color: white;
+	margin-left: 20px;}
+
 :root {
 	--background-color: #000000;
 	--foreground-color: #ffffff;
