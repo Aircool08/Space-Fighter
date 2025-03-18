@@ -52,7 +52,7 @@ body {
 	color: var(--foreground-color);
 }
 
-.Download {
+.download{
 	width: 10em;
 	height: 5ex;
 	background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
@@ -63,7 +63,7 @@ body {
 	cursor: pointer;
   }
   
-  .Download:active {
+  .download:active {
 	box-shadow: 2px 2px 5px #fc894d;
   }
 
