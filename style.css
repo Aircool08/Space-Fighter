@@ -53,8 +53,8 @@ body {
 }
 
 .button{
-	width: 10em;
-	height: 5ex;
+	width: 20em;
+	height: 10ex;
 	background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
 	border: none;
 	border-radius: 5px;
