@@ -1,13 +1,48 @@
-<DOCTYPE html>
-    <html>
-      <head>
-        <titel>Space Fighter</titel>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <link rel="stylesheet" href="style.css">
-      </head>
-      <body>
-        <h1 align="center">Space Fighter</h1> 
-        <h2 align="center">A game where you fly trough Space</h2>     
-      </body>
-    </html>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>space Fighter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <img src="assets/logo.png" alt="Game Logo" class="logo">
+    <h1 class="title">Space Fighter</h1>
+    <p class="subtitle">Fly a Spaceship trough the Orbit to finally get Home</p> <br>
+
+    <div class="buttons" style="display: flex; gap: 30px; font-family: Roboto;">
+    <a href="#" class="cyberpunk-button">Download Installer (BETA)</a>
+    <a href="#" class="cyberpunk-button">Download Game ZIP</a>
+    <a href="#" class="cyberpunk-button">Github Source Code</a>
+  </div>
+
+  </header>
+
+  <main>
+    <section id="about" class="about-section">
+      <h2>About the Game</h2>
+      <p style="font-size: 25px;">
+        Space Fighter is an action-packed Leveling Game where you are strandend in a Spaceship "Mark I "
+        and you have to fight enemies, repair your spaceship and survive for your only Goal: Come back home.
+      </p>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="assets/game-screenshot1.jpg" alt="Screenshot 1">
+        <img src="assets/game-screenshot2.jpg" alt="Screenshot 2">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Space-Fighter, Aircool08. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
