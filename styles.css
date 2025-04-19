@@ -200,6 +200,19 @@
     transform: scale(1.1);
     box-shadow: 0 0 20px #f0134d;
   }
+
+  .project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .project {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ff0080;
+  }
   
   /* Footer */
   .footer {
